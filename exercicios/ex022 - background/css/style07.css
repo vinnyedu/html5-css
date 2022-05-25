@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#container {
+    background-image: url(../images/target001.png);
+    background-size: 100% 100%;
+    position: relative;
+    height: 500px;
+    padding: 10px;
+    background-color: purple;
+}
+
+#conteudo1 {
+    background-image: url(../images/target001.png);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+
+    left: 20%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#conteudo2 {
+    background-image: url(../images/target001.png);
+    background-size: 100% 100%;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
